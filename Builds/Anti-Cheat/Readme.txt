@@ -1,0 +1,1 @@
+"Anti-Cheat.exe" als Administrator ausführen, um die HackMe mit vollem Schutzt zu starten.

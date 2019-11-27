@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Windows API">
+      <UniqueIdentifier>{63a4b37a-5d08-411c-a9bb-a5efae6d08a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows API\Header">
+      <UniqueIdentifier>{180cb490-6bd1-432f-b857-3fa143c23a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{30382b15-87a4-4d24-b07f-d29549dd3019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Header">
+      <UniqueIdentifier>{b04ba3e6-da72-46b6-af38-c6f4ec070569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti Debug">
+      <UniqueIdentifier>{3eec6687-3956-4a63-ba9c-008000eb8525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti Debug\Header">
+      <UniqueIdentifier>{9d9cee46-11d3-46f9-aeab-bc6f6ff521c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FailureHandler">
+      <UniqueIdentifier>{c1898508-a589-4dd4-af25-e723519f9f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FailureHandler\Header">
+      <UniqueIdentifier>{85cf9e2c-dc26-46ff-924f-f1b6a190a373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLInjectionDetector">
+      <UniqueIdentifier>{e2ca1eb6-50ad-490b-99b8-b74cd6980146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLInjectionDetector\Header">
+      <UniqueIdentifier>{b442ff53-ac96-4ce9-9d4d-8a8478f33754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti VM">
+      <UniqueIdentifier>{04d13e62-7616-45f7-97d8-0f55ade3cfbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DriverLoader">
+      <UniqueIdentifier>{18da8854-5608-45ad-a496-393566babb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DriverLoader\Header">
+      <UniqueIdentifier>{8d47fd43-3e5f-4f69-87bf-5553c5062a91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Console.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicWinAPI.cpp">
+      <Filter>Windows API</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug.cpp">
+      <Filter>Anti Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandler.cpp">
+      <Filter>FailureHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadEnumerator.cpp">
+      <Filter>DLLInjectionDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM.cpp">
+      <Filter>Anti VM</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverIORequests.cpp">
+      <Filter>DriverLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>DriverLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinAPI_Typedef.h">
+      <Filter>Windows API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows_Structs.h">
+      <Filter>Windows API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicWinAPI.h">
+      <Filter>Windows API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug.h">
+      <Filter>Anti Debug\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandler.h">
+      <Filter>FailureHandler\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadEnumerator.h">
+      <Filter>DLLInjectionDetector\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM.h">
+      <Filter>Anti VM</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverIO.h">
+      <Filter>DriverLoader\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverIORequests.h">
+      <Filter>DriverLoader\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>DriverLoader\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

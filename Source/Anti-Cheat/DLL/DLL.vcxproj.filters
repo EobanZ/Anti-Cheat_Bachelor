@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{e74df7bf-ba5c-442d-959f-1a6dd8a8c4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti Debug">
+      <UniqueIdentifier>{ee598dc1-e615-48a4-a75c-8f191f39d932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti Debug\Header">
+      <UniqueIdentifier>{9e23b200-58ed-439c-8fdd-5c2572f114c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FailureHandler">
+      <UniqueIdentifier>{e7cc44f1-5dd1-4771-9f35-9fadc36e626d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FailureHandler\Header">
+      <UniqueIdentifier>{2d569a37-9280-495e-a7a2-eb831bd1ab12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Header">
+      <UniqueIdentifier>{96a7f5f7-a2c1-4b2e-88ec-8fa204fd406f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLInjectionDetector">
+      <UniqueIdentifier>{463b96e2-2a02-44db-9161-7772a0ddac29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLInjectionDetector\Header">
+      <UniqueIdentifier>{20a68373-4bbb-4a21-bec8-5bb668a30e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enumerations">
+      <UniqueIdentifier>{f9bf143a-792d-41d5-80c6-147028f23f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enumerations\Header">
+      <UniqueIdentifier>{c5839c07-df1f-42ea-b455-4a20ece2ffba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\MD5">
+      <UniqueIdentifier>{c2da8f77-2f27-4e1d-a874-45c4ae31bb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti VM">
+      <UniqueIdentifier>{0ee18b8b-6229-4fb7-8c77-b2f27b164a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti Hooks">
+      <UniqueIdentifier>{61ab4841-a5d0-4ca6-bc89-417534ab8c5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug.h">
+      <Filter>Anti Debug\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandler.h">
+      <Filter>FailureHandler\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR.h">
+      <Filter>Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadEnumerator.h">
+      <Filter>DLLInjectionDetector\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLCheck.h">
+      <Filter>DLLInjectionDetector\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadCheck.h">
+      <Filter>DLLInjectionDetector\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLInjectDetector.h">
+      <Filter>DLLInjectionDetector\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryEnumeration.h">
+      <Filter>Enumerations\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Utils\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM.h">
+      <Filter>Anti VM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiHooks.h">
+      <Filter>Anti Hooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug.cpp">
+      <Filter>Anti Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandler.cpp">
+      <Filter>FailureHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadEnumerator.cpp">
+      <Filter>DLLInjectionDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLCheck.cpp">
+      <Filter>DLLInjectionDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadCheck.cpp">
+      <Filter>DLLInjectionDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="DLL.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryEnumeration.cpp">
+      <Filter>Enumerations</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Utils\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM.cpp">
+      <Filter>Anti VM</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiHooks.cpp">
+      <Filter>Anti Hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

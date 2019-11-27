@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\PatternScanner">
+      <UniqueIdentifier>{46cc5f3e-afc4-42b5-9203-8099f6861094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\PatternScanner">
+      <UniqueIdentifier>{273ffa53-804e-4814-bf20-10a3c3f0e23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{a908d29f-2e90-4144-ac33-59b6cb88252b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Header">
+      <UniqueIdentifier>{0807a129-bfa8-4f91-963b-d0b318930f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{5816afea-881d-44fc-bdc8-70abce2c9e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Header">
+      <UniqueIdentifier>{f8fd2c04-8c7c-4df6-8f5d-5ca56e7baeda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternTemplate.h">
+      <Filter>Headerdateien\PatternScanner</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScan.h">
+      <Filter>Headerdateien\PatternScanner</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAPI_Typedef.h">
+      <Filter>API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows_Structs.h">
+      <Filter>API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicWinAPI.h">
+      <Filter>API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR.h">
+      <Filter>Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternTemplate.cpp">
+      <Filter>Quelldateien\PatternScanner</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternScan.cpp">
+      <Filter>Quelldateien\PatternScanner</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicWinAPI.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
